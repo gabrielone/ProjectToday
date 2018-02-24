@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\AndroidApp\ai-barni-v1-gabriel-v1-ac2563c89cbfe511c27c1d6ab2db7d3b614200f7\BarniV1.iml" filepath="D:\AndroidApp\ai-barni-v1-gabriel-v1-ac2563c89cbfe511c27c1d6ab2db7d3b614200f7\BarniV1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ai-barni-v1-gabriel-v1-ac2563c89cbfe511c27c1d6ab2db7d3b614200f7.iml" filepath="$PROJECT_DIR$/ai-barni-v1-gabriel-v1-ac2563c89cbfe511c27c1d6ab2db7d3b614200f7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
