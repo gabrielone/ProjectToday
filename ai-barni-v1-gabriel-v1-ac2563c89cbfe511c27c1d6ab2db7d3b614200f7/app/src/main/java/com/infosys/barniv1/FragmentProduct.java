@@ -12,12 +12,12 @@ import android.widget.ListView;
 ///**
 // * A simple {@link Fragment} subclass.
 // * Activities that contain this fragment must implement the
-// * {@link Fragment_Product.OnFragmentInteractionListener} interface
+// * {@link FragmentProduct.OnFragmentInteractionListener} interface
 // * to handle interaction events.
-// * Use the {@link Fragment_Product#newInstance} factory method to
+// * Use the {@link FragmentProduct#newInstance} factory method to
 // * create an instance of this fragment.
 
-public class Fragment_Product extends Fragment {
+public class FragmentProduct extends Fragment {
 
 
     ListView productListView;

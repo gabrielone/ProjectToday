@@ -12,13 +12,15 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.infosys.barniv1.activities.BarniActivity;
+
 import java.util.ArrayList;
 
 /**
  * Created by adrian on 2/4/2018.
  */
 
-public class Fragment_Barni extends Fragment {
+public class FragmentBarni extends Fragment {
 
     private TextView txvResult;
 
@@ -34,7 +36,7 @@ public class Fragment_Barni extends Fragment {
         String valueTxvBarniCheckFor = txvBarniCheckFor.getText().toString();
 
 
-        Log.d("MY_LOG",valueTxvBarniCheckFor.toString());
+        Log.d("MY_LOG", valueTxvBarniCheckFor.toString());
 
         if (valueTxvBarniCheckFor.equalsIgnoreCase("looking for...") || valueTxvBarniCheckFor == null) {
             Intent intent = new Intent(getContext(), BarniActivity.class);
@@ -50,9 +52,9 @@ public class Fragment_Barni extends Fragment {
         return viewBarni;
     }
 
-    public void getSpeechInput(View view){
+    public void getSpeechInput(View view) {
 
-        Toast.makeText(getContext(),"Open Barni Speech",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), "Open Barni Speech", Toast.LENGTH_SHORT).show();
 //
 //        Intent intent = new Intent(getContext(), BarniActivity.class);
 //        startActivity(intent);

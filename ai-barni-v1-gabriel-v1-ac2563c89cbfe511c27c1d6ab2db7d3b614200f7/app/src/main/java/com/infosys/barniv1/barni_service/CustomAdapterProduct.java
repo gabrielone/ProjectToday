@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.infosys.barniv1.Fragment_Product;
+import com.infosys.barniv1.FragmentProduct;
 import com.infosys.barniv1.R;
 import com.squareup.picasso.Picasso;
 
@@ -70,7 +70,7 @@ public class CustomAdapterProduct extends ArrayAdapter<Product> {
                 FragmentManager fragmentManager = activity.getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-                Fragment_Product fragmentProduct = new Fragment_Product();
+                FragmentProduct fragmentProduct = new FragmentProduct();
 
                 // TODO: pass data from ProductsList to Product page if you want
 

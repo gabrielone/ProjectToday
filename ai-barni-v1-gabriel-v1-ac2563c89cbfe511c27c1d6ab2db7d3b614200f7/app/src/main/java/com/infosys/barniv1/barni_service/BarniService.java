@@ -6,7 +6,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 /**
- * Created by gabriel.gheorghe on 2/22/2018.
+ * Barni service.
  */
 
 public interface BarniService {

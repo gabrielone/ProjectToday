@@ -1,6 +1,5 @@
 package com.infosys.barniv1;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -87,7 +86,7 @@ public class MainActivity extends AppCompatActivity
                 fragment = new FragmentSListCategories();
                 break;
             case R.id.nav_barni:
-                fragment = new Fragment_Barni();
+                fragment = new FragmentBarni();
                 break;
         }
 
