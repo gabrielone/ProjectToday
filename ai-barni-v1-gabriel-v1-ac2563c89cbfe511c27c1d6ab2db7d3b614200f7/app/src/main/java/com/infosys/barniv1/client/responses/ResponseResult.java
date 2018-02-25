@@ -28,17 +28,17 @@ public class ResponseResult {
     private ResponseParameters parameters;
     @SerializedName("contexts")
     @Expose
-    private List<Context> contexts = null;
+    private List<ContextResponse> contexts = null;
 
-    /*
-     @SerializedName("metadata")
+
+    @SerializedName("metadata")
     @Expose
-    private Metadata metadata;
+    private MetadataResponse metadata;
+
     @SerializedName("fulfillment")
     @Expose
-    private Fulfillment fulfillment;
-    add them urself the rest.
-     */
+    private FulfillmentResponse fulfillment;
+
     @SerializedName("score")
     @Expose
     private Double score;
@@ -83,32 +83,31 @@ public class ResponseResult {
         this.parameters = parameters;
     }
 
-    public List<Context> getContexts() {
+    public List<ContextResponse> getContexts() {
         return contexts;
     }
 
-    public void setContexts(List<Context> contexts) {
+    public void setContexts(List<ContextResponse> contexts) {
         this.contexts = contexts;
     }
 
-    /*
-      public Metadata getMetadata() {
-          return metadata;
-      }
 
-      public void setMetadata(Metadata metadata) {
-          this.metadata = metadata;
-      }
+    public MetadataResponse getMetadata() {
+        return metadata;
+    }
 
-      public Fulfillment getFulfillment() {
-          return fulfillment;
-      }
+    public void setMetadata(MetadataResponse metadata) {
+        this.metadata = metadata;
+    }
 
-      public void setFulfillment(Fulfillment fulfillment) {
-          this.fulfillment = fulfillment;
-      }
+    public FulfillmentResponse getFulfillment() {
+        return fulfillment;
+    }
 
-     */
+    public void setFulfillment(FulfillmentResponse fulfillment) {
+        this.fulfillment = fulfillment;
+    }
+
     public Double getScore() {
         return score;
     }

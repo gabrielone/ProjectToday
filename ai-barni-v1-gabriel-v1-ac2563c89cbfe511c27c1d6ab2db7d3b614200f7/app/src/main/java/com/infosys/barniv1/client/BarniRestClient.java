@@ -50,8 +50,8 @@ public class BarniRestClient {
 
     private void initOkHttpClient() {
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
-        builder.connectTimeout(3, TimeUnit.SECONDS);
-        builder.readTimeout(3, TimeUnit.SECONDS);
+        builder.connectTimeout(10, TimeUnit.SECONDS);
+        builder.readTimeout(10, TimeUnit.SECONDS);
         builder.retryOnConnectionFailure(false);
 
         builder.addInterceptor(new AuthenticationInterceptor(token));

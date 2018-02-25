@@ -7,14 +7,14 @@ import com.google.gson.annotations.SerializedName;
  * Created by andrei on 24.02.18.
  */
 
-public class Context {
+public class ContextResponse {
 
     @SerializedName("name")
     @Expose
     private String name;
     @SerializedName("parameters")
     @Expose
-    private ResponseParameters parameters;
+    private ContextResponseParameters parameters;
     @SerializedName("lifespan")
     @Expose
     private Integer lifespan;
@@ -27,11 +27,11 @@ public class Context {
         this.name = name;
     }
 
-    public ResponseParameters getParameters() {
+    public ContextResponseParameters getParameters() {
         return parameters;
     }
 
-    public void setParameters(ResponseParameters parameters) {
+    public void setParameters(ContextResponseParameters parameters) {
         this.parameters = parameters;
     }
 
