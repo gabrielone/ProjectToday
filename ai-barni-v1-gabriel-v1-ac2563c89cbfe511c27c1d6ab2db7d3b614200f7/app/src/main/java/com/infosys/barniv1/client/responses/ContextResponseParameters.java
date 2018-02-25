@@ -16,7 +16,7 @@ public class ContextResponseParameters {
 
     @SerializedName("List_item.original")
     @Expose
-    private List<String> listItemOriginal = null;
+    private String listItemOriginal = null;
 
     public List<String> getListItem() {
         return listItem;
@@ -26,11 +26,11 @@ public class ContextResponseParameters {
         this.listItem = listItem;
     }
 
-    public List<String> getListItemOriginal() {
+    public String getListItemOriginal() {
         return listItemOriginal;
     }
 
-    public void setListItemOriginal(List<String> listItemOriginal) {
+    public void setListItemOriginal(String listItemOriginal) {
         this.listItemOriginal = listItemOriginal;
     }
 
